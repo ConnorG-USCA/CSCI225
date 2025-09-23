@@ -1,0 +1,71 @@
+<body>
+    <h1>Contact Me</h1>
+    <p>Watch my placeholder video below:</p>
+    <iframe width="1022" height="575" src="https://www.youtube.com/embed/vhIJzoHxYlA" 
+        title="DVD Logo Hits Corner" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen>
+    </iframe>
+<form name="feedback">
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" name="fname" placeholder="anonymous" required>
+    <br><br>
+
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname" name="lname" placeholder="anonymous" required>
+    <br><br>
+
+    <label for="mail">Email:</label>
+    <input type="email" id="mail" name="mail" placeholder="name@domain.com">
+    <br><br>
+
+    <label for="tele">Telephone Number:</label>
+    <input type="tel" placeholder="(xxx)xxx-xxxx" pattern="\(\{d}\)\d{3}-\d{4}" id="tel" name="tel">
+    <br><br>
+
+    <p>Would you recommend this website?</p>
+    <input type="radio" id="yes" name="recommend" value="yes">
+    <label for="yes">Yes</label>
+    <input type="radio" id="no" name="recommend" value="no">
+    <label for="no">No</label>
+    <br><br>
+
+    <label for="favsite">Favorite Website:</label>
+    <select id="favsite" name="favsite">
+      <option value="google">Google</option>
+      <option value="facebook">Facebook</option>
+      <option value="twitter">Twitter</option>
+      <option value="time">Time</option>
+      <option value="other">Other</option>
+    </select>
+    <br><br>
+
+    <label for="rating">Rate this website:</label>
+    <input type="range" id="rating" name="rating" min="1" max="10">
+    <br><br>
+
+    <label for="visit">When did you visit this website?</label>
+    <input type="date" id="visit" name="visit">
+    <br><br>
+    
+    <p>What did you like about our website?</p>
+    <input type="checkbox" id="design" name="likes" value="design">
+    <label for="design">Design</label>
+    <input type="checkbox" id="content" name="likes" value="content">
+    <label for="content">Content</label>
+    <input type="checkbox" id="speed" name="likes" value="speed">
+    <label for="speed">Speed</label>
+    <input type="checkbox" id="something" name="likes" value="something">
+    <label for="something">Something Else</label>
+    <br><br>
+
+    <label for="comment">Please leave an additonal comment:</label><br>
+    <textarea id="comment" name="comment"></textarea>
+    <br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
