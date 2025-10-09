@@ -1,6 +1,6 @@
 .introduction {
     position: fixed;
-    top: 200px;
+    top: 100px;
     left: 500px;
     width: 780px;
     height: 160px;
@@ -39,9 +39,9 @@
 
 .assignment {
     position: absolute;
-    bottom: 0px;
-    left: 0px;
-    width: 100vw;
+    top: 100px;
+    left: 100px;
+    width: 300px;
     height: 80px;
     background: #979797;
     z-index: 1;
