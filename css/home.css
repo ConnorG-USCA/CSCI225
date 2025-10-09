@@ -1,8 +1,7 @@
-/*Introduction Section */
 .introduction {
     position: fixed;
-    top: 400px;
-    left: 640px;
+    top: 200px;
+    left: 500px;
     width: 1280px;
     height: 160px;
     background: #62c6e8;
@@ -12,7 +11,7 @@
 .navbar {
     position: fixed;
     top: 0px;
-    left: 640px;
+    left: 440px;
     width: 100px;
     height: 20px;
     background: #eb2727;
