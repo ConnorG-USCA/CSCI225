@@ -4,7 +4,7 @@
     top: 400px;
     left: 640px;
     width: 1280px;
-    height: 240px;
+    height: 360px;
     background: #62c6e8;
     z-index: 1;
 }
@@ -13,8 +13,8 @@
     position: fixed;
     top: 0px;
     left: 640px;
-    width: 128px;
-    height: 30px;
+    width: 70px;
+    height: 20px;
     background: #eb2727;
     z-index: 2;
 }
