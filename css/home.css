@@ -16,6 +16,7 @@
     height: 20px;
     background: #eb2727;
     z-index: 2;
+    box-sizing: border-box;
 }
 
 .footer {
