@@ -3,8 +3,12 @@
     position: fixed;
     top: 400px;
     left: 640px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     width: 1280px;
-    height: 90000px;
+    height: 160px;
     background: #62c6e8;
     z-index: 1;
 }
