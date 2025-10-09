@@ -6,7 +6,14 @@
     height: 160px;
     background: #62c6e8;
     z-index: 1;
-}
+    }
+
+    .introduction img {
+        float: right;
+        height: 140px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
 
 .navbar {
     position: fixed;
