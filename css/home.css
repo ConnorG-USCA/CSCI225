@@ -1,5 +1,5 @@
 /*Introduction Section */
-.intro-section {
+.introduction {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -10,10 +10,10 @@
 }
 
 /*Navigation Section */
-.nav-section {
+.navbar {
     position: fixed;
-    top: 120px;
-    left: 0;
+    top: 0;
+    left: 50%;
     width: 100%;
     height: 60px;
     background: #d0d0d0;
@@ -21,7 +21,7 @@
 }
 
 /*Footer Section*/
-.footer-section {
+.footer {
     position: fixed;
     bottom: 0;
     left: 0;
