@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <iframe 
+        width="946" 
+        height="710" 
+        src="https://www.youtube.com/embed/jNQXAC9IVRw" 
+        title="Me at the zoo" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen>
+    </iframe>
+
+    <form name="feedback">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" placeholder="anonymous" required>
+        
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" placeholder="anonymous" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="mail" name="mail" placeholder="name@domain.com" required>
+        
+        <p>Would you recommend this website?</p>
+        <input type="radio" id="yes" name="recommend" value="yes">
+        <label for="yes">Yes</label>
+
+        <input type="radio" id="no" name="recommend" value="no">
+        <label for="no">No</label>
+        
+        <p>Favorite Website:</p>
+        <select name="favorite">
+            <option value="google">Google</option> 
+            <option value="facebook">Facebook</option> 
+            <option value="instagram">Instagram</option> 
+            <option value="x">X</option>
+        </select>
+
+        <br>
+        <label for="color">Favorite Color:</label>
+        <input type="color" id="color" name="color">
+        
+        <label for="date">Today's Date:</label>
+        <input type="date" id="date" name="date">
+
+        <br>
+        <p>Rate this website (1-10):</p>
+        <input type="range" name="rating" min="1" max="10">
+
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter password">
+        
+        <p>Additional Comments:</p>
+        <textarea name="comment"></textarea>
+        
+        <br>
+        <input type="submit" name="submit" value="Submit">
+    </form>
