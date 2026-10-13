@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+ul, ol {
+    color: purple !important; 
+    font-weight: bold;
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h2 {
+    text-shadow: 2px 2px 3px gray;
+}
+
+p {
+    line-height: 1.25;
+    text-align: left;
+}
+
+p::first-letter {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+
+    background-color: darkgrey;
+    color: white;
+    text-decoration: none;
+    z-index: 1000;
+
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0 25px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+
+    padding: 80px 25px 30px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 25px;
+
+    background: url('../img/background.jpeg') no-repeat center / cover;
+}
+
+section {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.introduction {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.portfolio {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.portfolio p:first-of-type {
+    box-shadow: 2px 2px 5px gray;
+    padding: 10px;
+}
+
+.schedule {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.schedule tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+.assignments {
+    grid-column: 2;
+    grid-row: 2;
+    margin: 25px 25px 30px;
+}
+
+.assignments ol {
+    list-style: none;
+    padding-left: 25px;
+}
+
+.assignments ol li {
+    background-image: url('../img/arrow.png');
+    background-size: 12px 12px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 20px;
+}
+
+.introduction img {
+    max-width: 100%;
+    height: auto;
+}
+
+.schedule table {
+    width: 100%;
+    border-collapse: collapse;
+    empty-cells: show;
+}
+
+.schedule table, .schedule th, .schedule td {
+    border: 1px solid black;
+}
+
+.schedule th, .schedule td {
+    padding: 10px;
+    vertical-align: middle;
+}
+
+/* Footer */
+footer {
+    background-color: lightgray;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.footer-text {
+    animation: slideFooter 8s ease-in-out infinite alternate;
+}
+
+@keyframes slideFooter {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(75vw);
+    }
+}

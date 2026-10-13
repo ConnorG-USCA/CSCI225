@@ -1,33 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
     <head>
         <title>CSCI225 Homepage of Connor Getson</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/home.css">
     </head>
 
     <body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
         <!-- Header -->
-        <header> 
-            <nav>
+        <header>
+            <div class="row">
+            <div class="navbar">
                 <ul>
                     <li><a href="https://www.usca.edu/">USCA Website</a></li>
                     <li><a href="#assignments">Assignments</a></li>
                     <li><a href="#schedule">Schedule</a></li>
                     <li><a href="https://www.google.com/">Google</a></li>
                 </ul>
-            </nav>
+            </div>
+            </div>
         </header>
         <!-- Main Content -->
         <main>
-            <section> 
+            <section class="introduction">
                 <h2>Introduction</h2>
-                <p>My name is Connor Getson. I am a student at USCA. I am majoring in Computer Science. I have a dog and a cat named Lucy and Leo. I don't have any images of them on my computer, so I will put an screenshot from a game I play instead.</p> 
+                <p>My name is Connor Getson. I am a student at USCA. I am majoring in Computer Science. </p> 
+                <p>I commute to campus and it's my third year here. I really don't do anything interesting.</p>
+                <p>I have a dog and a cat named Lucy and Leo. I don't have any images of them on my computer, so I will put an screenshot from a game I play instead.</p>
                 <img src="img/LCscreenshot.JPG" alt="Lethal Company Screenshot" style="width: 50%; height: auto;">
             </section>
-            <section> 
+            <section class="portfolio">
                 <h2>Portfolio</h2> 
                 <p>I have no previous projects to showcase.</p>
             </section>
-            <section> 
+            <section class="schedule" id="schedule">
                 <h2>Schedule</h2>
                 <table border="1">
                     <tr>
@@ -64,7 +75,7 @@
             </section>
         </main>
         <!-- Sidebar -->
-        <aside>
+        <aside class="assignments" id="assignments">
             <h2><u>Assignments</u></h2>
             <ol>
                 <li><a href="doc/ConnorGetson_Assignment1.pdf">Assignment 1</a></li>
@@ -75,13 +86,15 @@
         </aside>
         <!-- Footer -->
         <footer>
-            <address>
-                <p><u>Contact Information</u></p>
-                <p><i>Email:</i>
-                    <a href="cgetson@usca.edu">cgetson@usca.edu</a>
-                </p>
-            </address>
-        <p><i>Copyright &copy; 2026 Connor Getson.</i></p>
+            <div class="footer-text">
+                <address>
+                    <p><u>Contact Information</u></p>
+                    <p><i>Email:</i>
+                        <a href="cgetson@usca.edu">cgetson@usca.edu</a>
+                    </p>
+                </address>
+                <p><i>Copyright &copy; 2026 Connor Getson.</i></p>
+            </div>
         </footer>
     </body>
 </html>
